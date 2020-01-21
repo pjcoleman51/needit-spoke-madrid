@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days ago","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <parent_action display_value="Get Days Ago Date">684bede8db6200104b9c7b82399619c1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 14:47:08</sys_created_on>
+        <sys_id>12ace16cdb6200104b9c7b82399619ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_318356_needit_sp">7170e520db6200104b9c7b823996199d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">7170e520db6200104b9c7b823996199d</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_12ace16cdb6200104b9c7b82399619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:47:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=12ace16cdb6200104b9c7b82399619ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=12ace16cdb6200104b9c7b82399619ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>12ace16cdb6200104b9c7b82399619ce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 14:47:09</sys_created_on>
+        <sys_id>96ace16cdb6200104b9c7b82399619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:47:09</sys_updated_on>
+        <value>new_date</value>
+        <variable display_value="">d6ace16cdb6200104b9c7b82399619ed</variable>
+    </sys_variable_value>
+</record_update>
